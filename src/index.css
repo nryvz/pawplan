@@ -1,0 +1,150 @@
+body {
+  background-color: #fff2e4;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paw {
+  width: 40px;
+  height: 40px;
+}
+
+.catsit {
+  width: auto;
+  height: 188px;
+}
+
+h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  color:#4f535c;
+}
+
+.title {
+  display: flex;
+  height: 75px;
+  align-items: center;
+}
+
+.main {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.task_add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.task {
+  border: 2px solid #e7c8b9;
+  border-radius: 4px;
+  height: 45px;
+  color:#4f535c;
+  outline: none;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+.task::placeholder {
+  color: #d39d79;
+}
+
+.add {
+  background-color: #608fc2;
+  border: 1px solid #1d69b4;
+  border-radius: 4px;
+  padding: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #fff2e4;
+}
+.todo-list {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+  width: 300px;
+}
+
+.list_div{
+  display: flex;
+  align-items: center;
+gap:20px;
+}
+
+.todo-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff2e4;
+  padding: 1rem;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e9ccba;
+  transition: 0.2s;
+  color:#4f535c;
+}
+
+.todo-list li.done {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.todo-list li span {
+  cursor: pointer;
+  flex: 1;
+}
+
+.todo-list li button {
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: #e57373;
+}
+
+.todo-list li button:hover {
+  color: #d32f2f;
+}
+
+
+.list_paw{
+  width: 32px;
+  height: 32px;
+}
+
+.cat_sleep{
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sleep{
+  width: auto;
+  height: 150px;
+}
